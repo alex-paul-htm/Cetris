@@ -1,5 +1,5 @@
 hi
-instructions below for chrome OS, and windows, if you using an apple device i cannot tell you as I do not own one but try the something
+instructions below for chrome OS, and windows, if you using an apple device I cannot tell you as I do not own one but try something
 
 ChromeOS/chromebook: 
 open chrome hit CTRL + O then locate file titled cetris.html double click that, set that as book mark by clicking the star icon in the top.
