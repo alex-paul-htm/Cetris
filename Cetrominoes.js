@@ -1,3 +1,6 @@
+/*this file contains the data for all the cursed pieces.
+You can change the 0's to ones and the 1's to zeros to edit pieces.
+just dont put a 2, it will create a black hole that will absorb your computer, trust me it happened several times in development*/
 const I = [
 	[
 		[0, 0, 0, 0],
