@@ -30,10 +30,8 @@
 
 	
 	<marquee><div class="tutorial"><h1>tutorial: rotate to rotate the piece,  move left to move the piece left, move right to move the piece right, and go down to move the piece down</h1> <a href="https://youtu.be/Qd9EfLiwqcw"><img
-src="file:///home/chronos/u-73c4f7d23dd65f4eca2c9660df2fd7571102eb57/MyFiles/Downloads/pet%20the%20crewmate.gif"height='50'width='50'></a>
+src="file:///home/chronos/u-73c4f7d23dd65f4eca2c9660df2fd7571102eb57/MyFiles/Downloads/pet%20the%20crewmate.gif" height = '50' width = '50' ></a>
 	for theme song press play on the audio crontrols at the top left :J</div></marquee>
-<body>
-	 <head>
 		 <div class='title'>is this link my <a href="https://www.youtube.com/channel/UCxsUOgV_a4qrbqlW8Uk7s9Q">youtube channel </a> or is this a <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">RICKROLL</a></div><br>
     <canvas id="tetris" width="200" height="400"></canvas>
     <div class="scoreboi">
@@ -45,10 +43,20 @@ src="file:///home/chronos/u-73c4f7d23dd65f4eca2c9660df2fd7571102eb57/MyFiles/Dow
     <script src="Cetris.js"></script>
 	
 <div class='colorboi'>
- <form name="changeColor"> <input type="button"class="lightmode"
+ <form name = "changeColor" > <input type= "button" class="lightmode"
 name="colr" value=" Light Mode " onclick="document.bgColor='#FFFFFF'">
 <input type="button" name="colr" class='darkmode' value=" Dark Mode "
-onclick="document.bgColor='#333333'">
+onclick="document.bgColor='#333333'">  <!--<input type="button"class="amongus"
+name="colr" value=" Among Us " onclick="document.bgColor='#000000'">-->
+<script>function goFullScreen(){
+    var canvas = document.getElementById("tetris");
+    if(canvas.requestFullScreen)
+        canvas.requestFullScreen();
+    else if(canvas.webkitRequestFullScreen)
+        canvas.webkitRequestFullScreen();
+    else if(canvas.mozRequestFullScreen)
+        canvas.mozRequestFullScreen();
+}</script>
 <style>
 	.newboi {
 		background-color: #000000; /* black */
@@ -101,7 +109,10 @@ onclick="document.bgColor='#333333'">
 	}
 
 
-
+    .amongus:hover {
+	    background-color: #363636;/*grey incase you forgot*/
+	    color: white;
+	}
 /* Chrome, Safari */
 ::-webkit-scrollbar {
 width: 15px;
@@ -619,15 +630,16 @@ background-color: #ff458f;
 /*do not mess with this or the game will not work.If you make any changes and it breaks or you get in trouble you WILL be held accountable.
 ______________________________________________
 |                                            |
-|                                            |
+|                                           |
 |           �                        123     |
 |           ⎝ ͠°ᴥ °⎠    ſ:             456     |
 |           (づ⸟ ͜つ⸟)づ              789     |
 |           ლ(👁️ ³👁️ლ)             # <     |
-L____________________________________________⅃
+L___________________________________________⅃
 	
 	 　　　。　　　　•　 　ﾟ　　。 　　. 　　　.　　　 　　.　　　　　。
 	。　. 　 .　　 。　　　　　 ඞ 。 . 　　 •
 	• 　　ﾟ　　 Alyx was The Impostor.　 。　.
 	  '   　　　 0 Impostors remains 　 　　。 　　ﾟ　　　.　　　. ,　　　　.　 .
 	*/
+</style>
