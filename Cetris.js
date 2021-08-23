@@ -194,7 +194,7 @@ Piece.prototype.lock = function(){
                 board[0][c] = VACANT;
             }
             // increment the score
-            score += 1.1;
+            score += 100;
         }
     }
     // update the board
