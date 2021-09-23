@@ -1,0 +1,1 @@
+go ahead and contribute, just dont claim its yours. I would love it if you could add fetures, one thing that would be nice is a next block thing, I dont know if it is possible because it uses a random number. 
